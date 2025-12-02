@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fcc403a8-ee84-45f6-adcf-1f74254ee430">
+  <producedTypes>
+    <objectType typeId="83977a60-55ea-457f-9c5d-dc4eb87e4267" valueTypeId="01fb7a7c-3163-406a-a2ba-6ebc0391dfb9"/>
+    <refType typeId="577f2cf9-7b31-450b-8e8c-986c19d1cdc0" valueTypeId="c01b7d40-43a7-4db2-9753-92aaf603b3a9"/>
+    <selectionType typeId="86fec864-822f-4a05-b2ab-5736a3793ce4" valueTypeId="6475467b-e8b7-42cf-a6ac-b68c4530fcb7"/>
+    <listType typeId="eb747a63-82ab-49e3-9d08-20c55271bd80" valueTypeId="38dacf41-2f75-4b56-bb98-7794f6cc2f19"/>
+    <managerType typeId="2f5c53de-7069-4e6d-a464-eb6764cc3bf6" valueTypeId="ab6a64cd-92ae-4335-a5c0-2d013fabeb23"/>
+  </producedTypes>
+  <name>ПС_КаталогиПотоковогоСканирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Каталоги потокового сканирования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПС_КаталогиПотоковогоСканирования.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПС_КаталогиПотоковогоСканирования.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="d2521106-6d31-42fe-846d-e79476b6f7e1">
+      <name>КаталогДляОбработанныхДокументов</name>
+      <description>Каталог для обработанных </description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="616498b5-5fc1-4bcf-bd74-b3ccbd6a5e3f">
+    <name>Активен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="92eb0ab9-29c8-4ba5-9e6e-e5ad99269a37">
+    <name>ПутьНаСервере</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь на сервере</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
