@@ -38,6 +38,7 @@
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ПС_КаталогиПотоковогоСканирования.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="616498b5-5fc1-4bcf-bd74-b3ccbd6a5e3f">
     <name>Активен</name>
     <synonym>
@@ -71,4 +72,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="0289c379-9606-4981-9a9f-8244a559c239">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

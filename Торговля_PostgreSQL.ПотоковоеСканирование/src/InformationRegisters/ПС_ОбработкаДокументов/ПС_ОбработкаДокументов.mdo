@@ -147,6 +147,24 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <attributes uuid="a5a514c3-94b5-4d19-91b0-3350943ec0fc">
+    <name>ИмяФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <dimensions uuid="8de676d9-7ba8-45f7-ac7b-2f51283df26f">
     <name>Объект</name>
     <synonym>
@@ -168,7 +186,7 @@
     <name>ХешСумма</name>
     <synonym>
       <key>ru</key>
-      <value>SHA1</value>
+      <value>MD5</value>
     </synonym>
     <type>
       <types>String</types>
