@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ddaff837-f616-4e80-83f9-d92025e8ec16">
+  <producedTypes>
+    <refType typeId="300f5f20-dc91-48f0-af1e-28f50910c260" valueTypeId="f78730c9-05fb-4b78-b308-dad24392966f"/>
+    <listType typeId="4dc56250-218a-4548-83fc-976d8d7e5f7f" valueTypeId="04f75987-4468-4b11-8780-f35d57781746"/>
+    <managerType typeId="81a7c86b-8357-4ec3-b978-19d83584a5b2" valueTypeId="49e111c3-0d6c-4b41-a959-214087ffe6cf"/>
+  </producedTypes>
+  <name>ПС_ТипыРаспознанныхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы распознанных документов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6a02951b-8e29-4240-b0c9-dc0aa31df65b">
+    <name>ПоступлениеТоваровИУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление товаров и услуг</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e5dff363-c631-4bc8-a264-d083bbe8be47">
+    <name>РеализацияТоваровИУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реализация товаров и услуг</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
