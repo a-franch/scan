@@ -133,10 +133,10 @@
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="792970e5-0d5f-4179-94f3-d117d8808b63">
-    <name>НеОбрабатывать</name>
+    <name>ОбработкаЗавершена</name>
     <synonym>
       <key>ru</key>
-      <value>Не обрабатывать</value>
+      <value>Обработка завершена</value>
     </synonym>
     <type>
       <types>Boolean</types>
@@ -206,6 +206,24 @@
     </synonym>
     <type>
       <types>EnumRef.ПС_ТипыРаспознанныхДокументов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b25fca2d-90bd-4f12-ae2d-192e40a6f28e">
+    <name>КомментарийОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий обработки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
