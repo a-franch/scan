@@ -47,8 +47,12 @@
   </languages>
   <subsystems>Subsystem.ПС_ПотоковоеСканирование</subsystems>
   <roles>Role.ПС_ОсновнаяРоль</roles>
+  <commonTemplates>CommonTemplate.NativeComp_x64</commonTemplates>
+  <commonTemplates>CommonTemplate.NativeComp_x86</commonTemplates>
+  <commonTemplates>CommonTemplate.Макет</commonTemplates>
   <commonModules>CommonModule.ПС_ИндексацияФайловВызовСервера</commonModules>
   <commonModules>CommonModule.ПС_ИндексацияФайловКлиент</commonModules>
+  <commonModules>CommonModule.ПС_СлужебныеФункцииВызовСервера</commonModules>
   <catalogs>Catalog.ПС_КаталогиПотоковогоСканирования</catalogs>
   <documents>Document.ПриобретениеТоваровУслуг</documents>
   <documents>Document.РеализацияТоваровУслуг</documents>
