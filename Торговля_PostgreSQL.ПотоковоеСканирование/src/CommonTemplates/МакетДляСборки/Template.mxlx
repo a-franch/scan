@@ -6,7 +6,7 @@
 		<languageInfo>
 			<id>ru</id>
 			<code>Русский</code>
-			<description>Русский</description>
+			<description/>
 		</languageInfo>
 	</languageSettings>
 	<columns>
@@ -472,6 +472,13 @@
 			</column>
 		</columnsItem>
 	</columns>
+	<rowsItem>
+		<index>0</index>
+		<indexTo>5</indexTo>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
 	<rowsItem>
 		<index>6</index>
 		<row>
