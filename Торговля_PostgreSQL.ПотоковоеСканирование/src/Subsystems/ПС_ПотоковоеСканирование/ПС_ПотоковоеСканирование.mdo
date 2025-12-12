@@ -15,4 +15,5 @@
   </picture>
   <content>InformationRegister.ПС_ОбработкаДокументов</content>
   <content>Catalog.ПС_КаталогиПотоковогоСканирования</content>
+  <content>Catalog.ПС_НастройкиРаспознавания</content>
 </mdclass:Subsystem>

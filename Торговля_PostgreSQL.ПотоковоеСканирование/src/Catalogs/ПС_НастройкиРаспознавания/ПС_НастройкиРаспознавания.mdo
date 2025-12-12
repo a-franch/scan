@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c918a088-b802-4e7b-8fb7-bdd1619eb168">
+  <producedTypes>
+    <objectType typeId="eb9190cc-692e-4a57-89e2-2cba2533564c" valueTypeId="c1b8ff11-1f7b-45d1-a8f8-b6fad0b2a85d"/>
+    <refType typeId="a5cf786b-dde4-4d1d-ad9a-e5386f0a6f18" valueTypeId="fec60a10-888b-4c88-95ab-9cdc66b8d90a"/>
+    <selectionType typeId="e135525a-e239-4a27-aedd-9633bf3cafbb" valueTypeId="ab73a639-8a92-4d98-ba9b-d82cbafe9b2f"/>
+    <listType typeId="839968f8-47d6-4593-946c-527488c224a0" valueTypeId="930c3431-cd9d-44f3-802a-7eb5841b1a08"/>
+    <managerType typeId="ee9c0144-29a9-489f-b557-5678b8518d83" valueTypeId="46d765b2-28bf-4c92-ba9b-6ecc17787418"/>
+  </producedTypes>
+  <name>ПС_НастройкиРаспознавания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки распознавания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПС_НастройкиРаспознавания.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПС_НастройкиРаспознавания.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>3</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="e19eb0a1-4095-4af4-be92-08508a6a0ac3">
+      <name>АдресСервисаРаспознаванияДокументов</name>
+      <description>Адрес сервиса распознавания документов</description>
+      <code xsi:type="core:StringValue">
+        <value>001</value>
+      </code>
+    </items>
+    <items id="7d3ef8d1-1d60-4614-9e45-7851ef78f298">
+      <name>ЛогинN8N</name>
+      <description>Логин сервиса</description>
+      <code xsi:type="core:StringValue">
+        <value>002</value>
+      </code>
+    </items>
+    <items id="a5b13b0d-2d02-4dbc-9c5b-bafca2ba3976">
+      <name>ПарольN8N</name>
+      <description>Пароль сервиса</description>
+      <code xsi:type="core:StringValue">
+        <value>003</value>
+      </code>
+    </items>
+    <items id="b10c3035-c7e9-4e26-969b-bb253f8f4b44">
+      <name>ОсновнаяЛицензия</name>
+      <description>Основная лицензия</description>
+      <code xsi:type="core:StringValue">
+        <value>004</value>
+      </code>
+    </items>
+    <items id="bfdd9d0f-bd2d-44bb-8944-76f5995d62eb">
+      <name>РезервнаяЛицензия</name>
+      <description>Резервная лицензия</description>
+      <code xsi:type="core:StringValue">
+        <value>005</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ПС_НастройкиРаспознавания.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ПС_НастройкиРаспознавания.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="ca5e2b59-2b92-42b8-82e9-d4c9e994c00d">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="02d4e8b7-82e4-4d9e-a358-164cc66137eb">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <passwordMode>true</passwordMode>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="f6fb77a4-e6ba-443b-b44d-4ffb89b60733">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0572c4b7-20c4-4587-a942-7c02f619cd53">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
