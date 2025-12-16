@@ -48,6 +48,7 @@
   <subsystems>Subsystem.ПС_ПотоковоеСканирование</subsystems>
   <roles>Role.ПС_ОсновнаяРоль</roles>
   <commonTemplates>CommonTemplate.NativeComp_x64</commonTemplates>
+  <commonTemplates>CommonTemplate.NativeComp_x64_distr</commonTemplates>
   <commonTemplates>CommonTemplate.NativeComp_x86</commonTemplates>
   <commonTemplates>CommonTemplate.МакетДляСборки</commonTemplates>
   <commonModules>CommonModule.ПС_ИндексацияФайловВызовСервера</commonModules>

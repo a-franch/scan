@@ -63,6 +63,13 @@
         <value>005</value>
       </code>
     </items>
+    <items id="814972ee-260e-4561-904d-d6f49d95025a">
+      <name>ИспользоватьКомпонентуОкантовки</name>
+      <description>Использовать компоненту окантовки (Умолчание Да)</description>
+      <code xsi:type="core:StringValue">
+        <value>006</value>
+      </code>
+    </items>
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
@@ -75,7 +82,12 @@
       <value>Значение</value>
     </synonym>
     <type>
+      <types>Boolean</types>
       <types>String</types>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
       <stringQualifiers>
         <length>300</length>
       </stringQualifiers>
