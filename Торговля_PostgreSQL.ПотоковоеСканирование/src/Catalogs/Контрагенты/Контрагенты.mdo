@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fb111394-8134-481f-9a1c-ad225f9a89eb" extendedConfigurationObject="4259c461-12b1-4f3e-8283-5927c75afdb6">
+  <producedTypes>
+    <objectType typeId="59336f85-101e-45b6-9886-df3632267fe1" valueTypeId="f122d1fe-82a2-44b5-acb4-533dc39c76d8"/>
+    <refType typeId="7745081b-6a3b-4da3-ae0c-791a5a0a6e04" valueTypeId="cef0eefc-8abf-4176-89da-237b4cd7d765"/>
+    <selectionType typeId="85bcb627-701a-43f9-bcf3-b0823610211b" valueTypeId="861c2f9f-48b1-4e0b-b9b0-ff600fa57ee4"/>
+    <listType typeId="b563cad9-e9a7-46ad-bb27-ab76da5139e5" valueTypeId="f68cbc50-b0a8-4d94-b879-c62300e1d212"/>
+    <managerType typeId="e0d5425c-f65f-41c5-a75d-ee621db18f13" valueTypeId="9b252639-b06e-448a-afe5-727ce53b7594"/>
+  </producedTypes>
+  <name>Контрагенты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="5de734ce-c693-4b03-a6c2-941327fbf6e6" extendedConfigurationObject="489feb46-8450-495a-ab9b-547fdd55c2bc">
+    <name>ИНН</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ИНН</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="52915633-81d7-48e7-8229-64d1f82ce738" extendedConfigurationObject="ea256d8b-5500-4819-9668-837744212add">
+    <name>КПП</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>9</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="dec17c53-ccf7-4407-8c37-ac63537962fd" extendedConfigurationObject="21ab9d4e-9a58-4fbf-9e95-84a659b869e9">
+    <name>РегистрационныйНомер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="48f83775-6e53-440b-b5cb-e8977a0f92d8" extendedConfigurationObject="d0800e2e-b103-41a7-a887-ca049af6677e">
+    <name>НалоговыйНомер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="69e0fdef-cf42-4427-97e3-65dba71dd858" extendedConfigurationObject="be19691e-3e4a-44a7-96c2-ce843902e27e">
+    <name>НаименованиеПолное</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Catalog>

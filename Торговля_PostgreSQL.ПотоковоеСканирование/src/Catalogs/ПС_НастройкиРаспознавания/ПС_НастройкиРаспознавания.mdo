@@ -65,9 +65,37 @@
     </items>
     <items id="814972ee-260e-4561-904d-d6f49d95025a">
       <name>ИспользоватьКомпонентуОкантовки</name>
-      <description>Использовать компоненту окантовки (Умолчание Да)</description>
+      <description>Использовать компоненту окантовки</description>
       <code xsi:type="core:StringValue">
         <value>006</value>
+      </code>
+    </items>
+    <items id="b41e869f-31ab-4fb3-9c4c-4fa0e06628b3">
+      <name>ПорогТочностиДляДополнительногоПоискаИИ</name>
+      <description>Порог точности для дополнительного поиска ИИ</description>
+      <code xsi:type="core:StringValue">
+        <value>007</value>
+      </code>
+    </items>
+    <items id="5c3919e6-0b3a-4b75-aa25-a5de3e469f1e">
+      <name>ПорогТочностиДляПрикрепленияДокументов</name>
+      <description>Порог точности для прикрепления документов</description>
+      <code xsi:type="core:StringValue">
+        <value>008</value>
+      </code>
+    </items>
+    <items id="6147aafe-6b11-44c5-b332-4644d457db99">
+      <name>ГлубинаИИПоискаМес</name>
+      <description>Глубина ИИ поиска (мес)</description>
+      <code xsi:type="core:StringValue">
+        <value>009</value>
+      </code>
+    </items>
+    <items id="b708ae66-1573-43fa-931e-87067e676a41">
+      <name>КоличествоСтрокДляПоискаДокументаИИ</name>
+      <description>Количество строк для поиска документа ИИ</description>
+      <code xsi:type="core:StringValue">
+        <value>010</value>
       </code>
     </items>
   </predefined>

@@ -55,6 +55,9 @@
   <commonModules>CommonModule.ПС_ИндексацияФайловКлиент</commonModules>
   <commonModules>CommonModule.ПС_КоннекторHTTP</commonModules>
   <commonModules>CommonModule.ПС_СлужебныеФункцииВызовСервера</commonModules>
+  <definedTypes>DefinedType.ИНН</definedTypes>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.ПС_КаталогиПотоковогоСканирования</catalogs>
   <catalogs>Catalog.ПС_НастройкиРаспознавания</catalogs>
   <documents>Document.ПриобретениеТоваровУслуг</documents>

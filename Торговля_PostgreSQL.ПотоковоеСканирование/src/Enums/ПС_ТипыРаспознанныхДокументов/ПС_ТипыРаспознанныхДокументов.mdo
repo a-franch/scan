@@ -26,4 +26,25 @@
       <value>Реализация товаров и услуг</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="2e552c58-c0ad-43e3-8a61-98e9ae560885">
+    <name>Счет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="885a07e5-6635-40f1-af98-81d85ff853a5">
+    <name>СчетФактураВходящий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет фактура входящий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="451ad468-80d2-406b-870f-85eba06b4de7">
+    <name>СчетФактураИсходящий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет фактура исходящий</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>
