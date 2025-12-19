@@ -64,4 +64,5 @@
   <documents>Document.РеализацияТоваровУслуг</documents>
   <enums>Enum.ПС_ТипыРаспознанныхДокументов</enums>
   <informationRegisters>InformationRegister.ПС_ОбработкаДокументов</informationRegisters>
+  <informationRegisters>InformationRegister.ПС_ПравилаЗавершенияОбработкиДокументов</informationRegisters>
 </mdclass:Configuration>
