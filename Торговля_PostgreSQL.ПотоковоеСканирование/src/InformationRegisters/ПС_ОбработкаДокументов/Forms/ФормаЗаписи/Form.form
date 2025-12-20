@@ -293,6 +293,10 @@
             <dataPath xsi:type="form:DataPath">
               <segments>Запись.Прикреплен</segments>
             </dataPath>
+            <handlers>
+              <event>OnChange</event>
+              <name>ПрикрепленПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>ПрикрепленРасширеннаяПодсказка</name>
               <id>18</id>
@@ -326,6 +330,10 @@
             <dataPath xsi:type="form:DataPath">
               <segments>Запись.ОбработкаЗавершена</segments>
             </dataPath>
+            <handlers>
+              <event>OnChange</event>
+              <name>ОбработкаЗавершенаПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>ОбработкаЗавершенаРасширеннаяПодсказка</name>
               <id>33</id>
@@ -452,24 +460,96 @@
             <textEdit>true</textEdit>
           </extInfo>
         </items>
-        <items xsi:type="form:FormField">
-          <name>Объект</name>
-          <id>4</id>
-          <title>
-            <key>ru</key>
-            <value>Объект базы данных</value>
-          </title>
+        <items xsi:type="form:FormGroup">
+          <name>ГруппаПодтвердить</name>
+          <id>108</id>
+          <items xsi:type="form:FormField">
+            <name>Объект</name>
+            <id>4</id>
+            <title>
+              <key>ru</key>
+              <value>Объект базы данных</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Запись.Объект</segments>
+            </dataPath>
+            <handlers>
+              <event>OnChange</event>
+              <name>ОбъектПриИзменении</name>
+            </handlers>
+            <extendedTooltip>
+              <name>ОбъектРасширеннаяПодсказка</name>
+              <id>6</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ОбъектКонтекстноеМеню</name>
+              <id>5</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <extendedEditMultipleValues>true</extendedEditMultipleValues>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
+          <items xsi:type="form:Button">
+            <name>ПодтвердитьИПрикрепить</name>
+            <id>106</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ПодтвердитьИПрикрепитьРасширеннаяПодсказка</name>
+              <id>107</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>UsualButton</type>
+            <commandName>Form.Command.ПодтвердитьИПрикрепить</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Запись.Объект</segments>
-          </dataPath>
+          <title>
+            <key>ru</key>
+            <value>Группа подтвердить</value>
+          </title>
           <extendedTooltip>
-            <name>ОбъектРасширеннаяПодсказка</name>
-            <id>6</id>
+            <name>ГруппаПодтвердитьРасширеннаяПодсказка</name>
+            <id>109</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -477,24 +557,14 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <contextMenu>
-            <name>ОбъектКонтекстноеМеню</name>
-            <id>5</id>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>InputField</type>
-          <editMode>Enter</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <wrap>true</wrap>
-            <extendedEditMultipleValues>true</extendedEditMultipleValues>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
+          <type>UsualGroup</type>
+          <extInfo xsi:type="form:UsualGroupExtInfo">
+            <group>AlwaysHorizontal</group>
+            <behavior>Auto</behavior>
+            <showLeftMargin>true</showLeftMargin>
+            <united>true</united>
+            <throughAlign>Auto</throughAlign>
+            <currentRowUse>Auto</currentRowUse>
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
@@ -1344,6 +1414,10 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
@@ -1384,6 +1458,27 @@
         <name>ОткрытьДокумент</name>
       </handler>
     </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ПодтвердитьИПрикрепить</name>
+    <title>
+      <key>ru</key>
+      <value>Подтвердить и прикрепить</value>
+    </title>
+    <id>2</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.AppearanceCheckIcon</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПодтвердитьИПрикрепить</name>
+      </handler>
+    </action>
+    <representation>TextPicture</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>

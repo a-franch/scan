@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form" xmlns:schema="http://g5.1c.ru/v8/dt/data-composition-system/schema">
   <items xsi:type="form:FormGroup">
     <name>СписокКомпоновщикНастроекПользовательскиеНастройки</name>
     <id>1</id>
@@ -60,7 +60,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Period</segments>
+        <segments>Список.Период</segments>
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
@@ -720,6 +720,108 @@
       <userSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</userSettingsGroup>
     </extInfo>
   </items>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаПараметры</name>
+    <id>75</id>
+    <items xsi:type="form:FormField">
+      <name>ПоказыватьАрхив</name>
+      <id>70</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПоказыватьАрхив</segments>
+      </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ПоказыватьАрхивПриИзменении</name>
+      </handlers>
+      <extendedTooltip>
+        <name>ПоказыватьАрхивРасширеннаяПодсказка</name>
+        <id>72</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ПоказыватьАрхивКонтекстноеМеню</name>
+        <id>71</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>CheckBoxField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>АвтоматическаяОбработка</name>
+      <id>77</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>АвтоматическаяОбработка</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>АвтоматическаяОбработкаРасширеннаяПодсказка</name>
+        <id>79</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>АвтоматическаяОбработкаКонтекстноеМеню</name>
+        <id>78</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>CheckBoxField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Группа параметры</value>
+    </title>
+    <extendedTooltip>
+      <name>ГруппаПараметрыРасширеннаяПодсказка</name>
+      <id>76</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>HorizontalIfPossible</group>
+      <behavior>Auto</behavior>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
@@ -777,8 +879,43 @@
       <representationInContextMenu>OnlyInContextMenu</representationInContextMenu>
       <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
+    <items xsi:type="form:Button">
+      <name>ФормаОбработатьВсеФайлы</name>
+      <id>73</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаОбработатьВсеФайлыРасширеннаяПодсказка</name>
+        <id>74</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.ОбработатьВсеФайлы</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
+  <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
+  </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <autoSaveDataInSettings>Use</autoSaveDataInSettings>
+  <saveDataInSettings>UseList</saveDataInSettings>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
@@ -802,12 +939,191 @@
     </edit>
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
+      <queryText>ВЫБРАТЬ
+	ПС_ОбработкаДокументов.Период КАК Период,
+	ПС_ОбработкаДокументов.Объект КАК Объект,
+	ПС_ОбработкаДокументов.ХешСумма КАК ХешСумма,
+	ПС_ОбработкаДокументов.Распознан КАК Распознан,
+	ПС_ОбработкаДокументов.Найден КАК Найден,
+	ПС_ОбработкаДокументов.Прикреплен КАК Прикреплен,
+	ПС_ОбработкаДокументов.КоличествоПопыток КАК КоличествоПопыток,
+	ПС_ОбработкаДокументов.ИзвлеченныйТекст КАК ИзвлеченныйТекст,
+	ПС_ОбработкаДокументов.Вероятность КАК Вероятность,
+	ПС_ОбработкаДокументов.КлючевыеРеквизиты КАК КлючевыеРеквизиты,
+	ПС_ОбработкаДокументов.ОбработкаЗавершена КАК ОбработкаЗавершена,
+	ПС_ОбработкаДокументов.ИмяФайла КАК ИмяФайла,
+	ПС_ОбработкаДокументов.НаКлиенте КАК НаКлиенте,
+	ПС_ОбработкаДокументов.ПредставлениеДокумента КАК ПредставлениеДокумента,
+	ПС_ОбработкаДокументов.ТипДокумента КАК ТипДокумента,
+	ПС_ОбработкаДокументов.КомментарийОбработки КАК КомментарийОбработки,
+	ПС_ОбработкаДокументов.ОкончаниеОбработки КАК ОкончаниеОбработки,
+	ПС_ОбработкаДокументов.Организация КАК Организация,
+	ПС_ОбработкаДокументов.Контрагент КАК Контрагент,
+	ПС_ОбработкаДокументов.Дата КАК Дата,
+	ПС_ОбработкаДокументов.Номер КАК Номер,
+	ПС_ОбработкаДокументов.Сумма КАК Сумма,
+	ПС_ОбработкаДокументов.ТипСодержимого КАК ТипСодержимого,
+	ПС_ОбработкаДокументов.КраткоеСодержание КАК КраткоеСодержание
+ИЗ
+	РегистрСведений.ПС_ОбработкаДокументов КАК ПС_ОбработкаДокументов
+ГДЕ
+	НЕ ПС_ОбработкаДокументов.ОбработкаЗавершена
+	ИЛИ &amp;ПоказыватьАрхив</queryText>
       <mainTable>InformationRegister.ПС_ОбработкаДокументов</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
+      <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Период</dataPath>
+        <field>Период</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Объект</dataPath>
+        <field>Объект</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ХешСумма</dataPath>
+        <field>ХешСумма</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Распознан</dataPath>
+        <field>Распознан</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Найден</dataPath>
+        <field>Найден</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Прикреплен</dataPath>
+        <field>Прикреплен</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>КоличествоПопыток</dataPath>
+        <field>КоличествоПопыток</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИзвлеченныйТекст</dataPath>
+        <field>ИзвлеченныйТекст</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Вероятность</dataPath>
+        <field>Вероятность</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>КлючевыеРеквизиты</dataPath>
+        <field>КлючевыеРеквизиты</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ОбработкаЗавершена</dataPath>
+        <field>ОбработкаЗавершена</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИмяФайла</dataPath>
+        <field>ИмяФайла</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>НаКлиенте</dataPath>
+        <field>НаКлиенте</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПредставлениеДокумента</dataPath>
+        <field>ПредставлениеДокумента</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ТипДокумента</dataPath>
+        <field>ТипДокумента</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>КомментарийОбработки</dataPath>
+        <field>КомментарийОбработки</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ОкончаниеОбработки</dataPath>
+        <field>ОкончаниеОбработки</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Организация</dataPath>
+        <field>Организация</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Контрагент</dataPath>
+        <field>Контрагент</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Дата</dataPath>
+        <field>Дата</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Номер</dataPath>
+        <field>Номер</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Сумма</dataPath>
+        <field>Сумма</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ТипСодержимого</dataPath>
+        <field>ТипСодержимого</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>КраткоеСодержание</dataPath>
+        <field>КраткоеСодержание</field>
+      </fields>
+      <parameters>
+        <name>ПоказыватьАрхив</name>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Показывать архив</value>
+            </content>
+          </localValue>
+        </title>
+        <valueType>
+          <types>Boolean</types>
+        </valueType>
+        <useRestriction>true</useRestriction>
+      </parameters>
     </extInfo>
+  </attributes>
+  <attributes>
+    <name>ПоказыватьАрхив</name>
+    <title>
+      <key>ru</key>
+      <value>Показывать архив</value>
+    </title>
+    <id>2</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>АвтоматическаяОбработка</name>
+    <title>
+      <key>ru</key>
+      <value>Автоматическая обработка</value>
+    </title>
+    <id>3</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>АвтоматическаяОбработка</segments>
+    </settingsSavedData>
   </attributes>
   <formCommands>
     <name>ПроверитьКаталоги</name>
@@ -842,6 +1158,27 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ОбработатьВыбранныйФайл</name>
+      </handler>
+    </action>
+    <representation>TextPicture</representation>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОбработатьВсеФайлы</name>
+    <title>
+      <key>ru</key>
+      <value>Обработать все файлы</value>
+    </title>
+    <id>3</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.QueryWizard</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОбработатьВсеФайлы</name>
       </handler>
     </action>
     <representation>TextPicture</representation>

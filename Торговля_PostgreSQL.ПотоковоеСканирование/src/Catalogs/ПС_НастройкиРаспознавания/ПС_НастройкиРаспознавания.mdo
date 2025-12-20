@@ -98,6 +98,27 @@
         <value>010</value>
       </code>
     </items>
+    <items id="05fb8d8d-ee42-4ade-94a7-e1358a47c3f8">
+      <name>КоличествоПопытокАвтоматическогоРаспознавания</name>
+      <description>Количество попыток автоматического распознавания</description>
+      <code xsi:type="core:StringValue">
+        <value>011</value>
+      </code>
+    </items>
+    <items id="552d2399-668c-436c-ae21-073f9aa93251">
+      <name>ИнтервалАвтоматическойОбработкиМин</name>
+      <description>Интервал автоматической обработки мин</description>
+      <code xsi:type="core:StringValue">
+        <value>012</value>
+      </code>
+    </items>
+    <items id="d2d7110a-89d4-4e4a-874d-f9c93e6d38b9">
+      <name>ОткрыватьСканированиеПриНачалеРаботы</name>
+      <description>Открывать сканирование при начале работы</description>
+      <code xsi:type="core:StringValue">
+        <value>013</value>
+      </code>
+    </items>
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
