@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d8e6336-55d4-49bf-a6ce-44a0aef09fa9">
+  <name>ПС_ИндексацияФайловКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Индексация файлов клиент</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52a69c83-43ee-482c-a46f-d120807257d4">
+  <producedTypes>
+    <selectionType typeId="1501d045-9230-4507-afea-e24d7ed724a4" valueTypeId="566739ac-67a9-4b9d-9627-e06da1febf71"/>
+    <listType typeId="e2e4a45a-fa13-4bd2-beb7-73273d231e28" valueTypeId="0a2a6a3a-ecb3-4812-a16c-173f3a65fee2"/>
+    <managerType typeId="071d44c4-2840-48f7-bbf9-72219ba18370" valueTypeId="1d62f257-e88f-4403-8ae4-171646c3564c"/>
+    <recordSetType typeId="b5f63b21-d049-4211-b66b-047ecfea6bf0" valueTypeId="d1456b3b-f27e-4818-a9bb-8efb68988346"/>
+    <recordKeyType typeId="cb6049c4-57e6-47af-9eb7-884b01b96f00" valueTypeId="e23744ef-5cc4-4d21-8c05-ee44dd95ab93"/>
+    <recordType typeId="64dae000-f341-495a-91b7-3ad54c780214" valueTypeId="12d4269e-9ab6-4b87-9d6b-93d240dff4b4"/>
+    <recordManagerType typeId="91dcdb53-efba-4ad0-bbd1-df90a8f95988" valueTypeId="37139add-c7f5-4d51-8f7a-d629b12534c5"/>
+  </producedTypes>
+  <name>ПС_ПравилаЗавершенияОбработкиДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Правила завершения обработки документов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="45a18459-09be-47fb-9a1a-543b043b22da">
+    <name>ФормулаРасчетаЗначения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формула расчета значения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="677a6788-c44f-4b56-8071-a2e48f117741">
+    <name>Активно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активно</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="eb81f64e-a113-471f-8cdf-b07a109a04cc">
+    <name>БСП</name>
+    <synonym>
+      <key>ru</key>
+      <value>БСП</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="9bbbe5b7-d84e-425a-ad4f-b0e24593dd4a">
+    <name>ТипДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип документа</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПС_ТипыРаспознанныхДокументов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="893f5917-a7bd-4ce5-a1af-6251e1509de4">
+    <name>ИмяРеквизита</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя реквизита</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a9c17d9-c445-4e3c-a8c8-a255dc4f4caa">
+  <name>NativeComp_x64_distr</name>
+  <synonym>
+    <key>ru</key>
+    <value>Native comp x64 distr</value>
+  </synonym>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b7871a9-c562-4df7-9074-9abc9bcd27e6">
+  <producedTypes>
+    <refType typeId="a41f210c-f3d6-4409-9018-8f310233a5c7" valueTypeId="3fe33bc2-6a31-4cd9-82cb-d1af0b9ca779"/>
+    <listType typeId="b1a181f8-2477-43c6-8058-898f479c8a54" valueTypeId="5147b459-ad82-4684-a760-8b0b3a8bd216"/>
+    <managerType typeId="68ff58c1-b30a-4fbf-808b-88fbd942c8dd" valueTypeId="41d6b45b-3a6b-478c-98d0-6c89ef493f01"/>
+  </producedTypes>
+  <name>ПС_ВариантыИдентификацииСторонДокументов</name>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cf33bfaa-a298-4725-a745-a3b5e1fa24c1">
+    <name>ИНН</name>
+  </enumValues>
+  <enumValues uuid="2cb68c7c-0a35-4f3f-a552-7c2729f2ec9d">
+    <name>ОКПО</name>
+  </enumValues>
+</mdclass:Enum>

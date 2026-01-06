@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d2cb33f-f297-4e72-8f3c-b9ecd84b25c1">
+  <name>ПС_СозданиеДокументовБухгалтерияПредприятия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создание документов бухгалтерия предприятия</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7292e0db-cdef-46e9-8a44-72bfde57cc26">
+  <producedTypes>
+    <refType typeId="ce935b6a-c972-42b0-9fdf-d823beea0b7c" valueTypeId="675e5d2f-63cc-44d2-8800-654554b435fa"/>
+    <listType typeId="ac646646-02ff-4e49-9684-037b532a0a19" valueTypeId="c24a3037-9334-4da3-9aa9-202179049fd7"/>
+    <managerType typeId="e1f596d1-583a-4572-a84a-ffe0ea71b47f" valueTypeId="2247c96d-0a03-4dca-9449-51ecfe50da96"/>
+  </producedTypes>
+  <name>ПС_ВариантыЗагрузкиСтрок</name>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0a580d62-ae7e-4dab-8f10-c3377c17b2cd">
+    <name>Сводно</name>
+  </enumValues>
+  <enumValues uuid="47fbd953-9196-4516-95ea-fbd28a332c0a">
+    <name>Построчно</name>
+  </enumValues>
+</mdclass:Enum>

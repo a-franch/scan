@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8265860-4193-4d0c-9492-fafc5f26565f">
+  <producedTypes>
+    <objectType typeId="c5991eae-5bd7-4a7b-a6fd-b325a3929e6f" valueTypeId="c0d5915a-3333-458f-af0b-65e1c34dd983"/>
+    <refType typeId="42fb7186-f9d9-451a-9efd-e08930e55575" valueTypeId="dbbf6ea5-6d05-4bfd-85ef-d81a23d67c34"/>
+    <selectionType typeId="03955cba-0875-4865-b522-5005a07c5a6b" valueTypeId="940f00ad-9a63-4f4e-a81d-f04bad54ad71"/>
+    <listType typeId="77910c37-2805-4757-9d85-b69af6120d1d" valueTypeId="816f231f-6b34-44c8-bedc-d4f4d0dd8c2a"/>
+    <managerType typeId="d11d8bd8-cab0-43f5-beb2-b764e981ca98" valueTypeId="56368f93-1f16-410d-9bef-702d1da3073d"/>
+  </producedTypes>
+  <name>ПС_ОсобенностиЗагрузкиФормДокументов</name>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПС_ОсобенностиЗагрузкиФормДокументов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПС_ОсобенностиЗагрузкиФормДокументов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="3019f695-0309-4a14-886e-03b3145f9f37">
+    <name>ОКУД</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="28661ad6-2ae4-472c-8f20-dccb97403e57">
+    <name>ВариантЗагрузкиСтрок</name>
+    <type>
+      <types>EnumRef.ПС_ВариантыЗагрузкиСтрок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cc3b4f2b-c592-4911-b80c-fe575ba22ec7">
+    <name>ВДокументеВсегдаУслуги</name>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="004f6b5e-a9e6-419f-bde6-a6aad77f421c">
+    <name>НоменклатураДляУслугПоУмолчанию</name>
+    <type>
+      <types>CatalogRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9b66f25c-dac6-4af5-b2af-053756dfb45b">
+    <name>ПриоритетныйВариантИдентификацииСторон</name>
+    <type>
+      <types>EnumRef.ПС_ВариантыИдентификацииСторонДокументов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e36b455f-5c3c-4d47-8a64-c7ae9e0646f6">
+    <name>СоздаватьКонтрагентовАвтоматическиПриЗагрузке</name>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="502efb99-a6a3-4d99-832b-a83f10c52cd6">
+    <producedTypes>
+      <objectType typeId="ab862f0f-f0c1-4170-b48c-cb16cedde30e" valueTypeId="0210890e-691b-412c-a20c-c4008d5297dc"/>
+      <rowType typeId="28516329-2582-49f7-91b3-0eaf82604da7" valueTypeId="be0ea822-36ea-418f-8a47-47e017e354c4"/>
+    </producedTypes>
+    <name>ЗаполнениеСчетовУчета</name>
+    <attributes uuid="4f69f91a-1d8b-463e-8d1d-614f0dcb69cb">
+      <name>РеквизитШапки</name>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="056fa8fb-6045-4344-95a6-c1966113fc60">
+      <name>ИмяРеквизита</name>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="77e66bff-1812-4102-a716-5f1097212269">
+      <name>КодСчетаУчета</name>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Catalog>
