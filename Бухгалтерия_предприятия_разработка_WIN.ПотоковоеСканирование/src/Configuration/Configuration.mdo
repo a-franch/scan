@@ -52,6 +52,7 @@
   <commonModules>CommonModule.ПС_ОбработкаКоммандКлиент</commonModules>
   <commonModules>CommonModule.ПС_СлужебныеФункцииВызовСервера</commonModules>
   <commonModules>CommonModule.ПС_СозданиеДокументовБухгалтерияПредприятия</commonModules>
+  <commonModules>CommonModule.ПС_СозданиеНовыхОбъектовВызовСервера</commonModules>
   <catalogs>Catalog.ПС_КаталогиПотоковогоСканирования</catalogs>
   <catalogs>Catalog.ПС_НастройкиРаспознавания</catalogs>
   <catalogs>Catalog.ПС_ОсобенностиЗагрузкиФормДокументов</catalogs>

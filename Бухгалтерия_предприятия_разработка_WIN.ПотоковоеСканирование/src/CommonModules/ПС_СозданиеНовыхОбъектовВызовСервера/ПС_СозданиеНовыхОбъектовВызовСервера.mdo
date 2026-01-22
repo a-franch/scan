@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bbb45ccb-72fe-45b2-a589-ed86c4acbf38">
+  <name>ПС_СозданиеНовыхОбъектовВызовСервера</name>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>
