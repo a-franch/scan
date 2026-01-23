@@ -8,6 +8,10 @@
     <managerType typeId="d11d8bd8-cab0-43f5-beb2-b764e981ca98" valueTypeId="56368f93-1f16-410d-9bef-702d1da3073d"/>
   </producedTypes>
   <name>ПС_ОсобенностиЗагрузкиФормДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Особенности загрузки форм документов по ОКУД</value>
+  </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.ПС_ОсобенностиЗагрузкиФормДокументов.StandardAttribute.Code</inputByString>
   <inputByString>Catalog.ПС_ОсобенностиЗагрузкиФормДокументов.StandardAttribute.Description</inputByString>
@@ -27,6 +31,10 @@
   <choiceMode>BothWays</choiceMode>
   <attributes uuid="3019f695-0309-4a14-886e-03b3145f9f37">
     <name>ОКУД</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОКУД через запятую</value>
+    </synonym>
     <type>
       <types>String</types>
       <stringQualifiers>
