@@ -36,12 +36,7 @@
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <compatibilityMode>8.3.27</compatibilityMode>
   <languages uuid="bce47e49-3147-4d21-8115-9f228c4a3787">
-    <name>Русский</name>    <name>Русский</name>
-    <synonym>
-      <key>ru</key>
-      <value>Русский</value>
-    </synonym>
-    <languageCode>ru</languageCode>
+    <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:LanguageExtension"/>
   </languages>
@@ -51,6 +46,7 @@
   <commonTemplates>CommonTemplate.NativeComp_x64_distr</commonTemplates>
   <commonTemplates>CommonTemplate.NativeComp_x86</commonTemplates>
   <commonTemplates>CommonTemplate.МакетДляСборки</commonTemplates>
+  <commonModules>CommonModule.ПС_N8NВызовСервера</commonModules>
   <commonModules>CommonModule.ПС_ИндексацияФайловВызовСервера</commonModules>
   <commonModules>CommonModule.ПС_ИндексацияФайловКлиент</commonModules>
   <commonModules>CommonModule.ПС_КоннекторHTTP</commonModules>
