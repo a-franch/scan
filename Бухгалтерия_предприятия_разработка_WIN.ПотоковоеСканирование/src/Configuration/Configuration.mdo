@@ -3,7 +3,7 @@
   <name>ПотоковоеСканирование</name>
   <synonym>
     <key>ru</key>
-    <value>Потоковое сканирование</value>
+    <value>P.S.</value>
   </synonym>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:ConfigurationExtension">
@@ -40,7 +40,7 @@
     <objectBelonging>Adopted</objectBelonging>
     <extension xsi:type="mdclassExtension:LanguageExtension"/>
   </languages>
-  <subsystems>Subsystem.ПС_ПотоковоеСканирование</subsystems>
+  <subsystems>Subsystem.ПС_Постскриптум</subsystems>
   <roles>Role.ПС_ОсновнаяРоль</roles>
   <commonTemplates>CommonTemplate.NativeComp_x64</commonTemplates>
   <commonTemplates>CommonTemplate.NativeComp_x64_distr</commonTemplates>
@@ -60,6 +60,7 @@
   <enums>Enum.ПС_ВариантыЗагрузкиСтрок</enums>
   <enums>Enum.ПС_ВариантыИдентификацииСторонДокументов</enums>
   <enums>Enum.ПС_ТипыРаспознанныхДокументов</enums>
+  <reports>Report.ПС_КонкурентнаяРазведка</reports>
   <informationRegisters>InformationRegister.ПС_ОбработкаДокументов</informationRegisters>
   <informationRegisters>InformationRegister.ПС_ПравилаЗавершенияОбработкиДокументов</informationRegisters>
 </mdclass:Configuration>

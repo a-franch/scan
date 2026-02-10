@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6f2601d-cf92-4447-a564-0ad344888419">
+  <producedTypes>
+    <objectType typeId="c3cc222c-8274-4e75-89f2-6e6545f16172" valueTypeId="77d30e5d-d1cc-4db1-94a4-3ca7fec6bfb2"/>
+    <managerType typeId="34f48d78-c9df-4ada-a445-0cbefd006b36" valueTypeId="1e8cd6c5-6cd3-4ba2-a5d8-c250825da156"/>
+  </producedTypes>
+  <name>ПС_КонкурентнаяРазведка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конкурентная разведка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ПС_КонкурентнаяРазведка.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ПС_КонкурентнаяРазведка.Template.МакетСКД</mainDataCompositionSchema>
+  <attributes uuid="615888b0-6ee7-4c58-b5f3-afd9b1854f68">
+    <name>ОбъектАнализа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект анализа</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="d77210e6-a9ee-4469-95a3-79fe0a84bca7">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="9d3f4bd6-2772-4ce1-abaa-068ffd1c3aa5">
+    <name>МакетСКД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет СКД</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
