@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c547343-0ab8-4477-966e-1bc96fe5d2e1">
+  <producedTypes>
+    <objectType typeId="6cb4f042-862a-4266-af52-29903d0f805d" valueTypeId="e51d45c0-f6be-4988-8f48-ada034ba0f20"/>
+    <refType typeId="6b0ccf99-2fc0-4beb-a3ae-a1a0043fddef" valueTypeId="2e0ff9fb-1247-491b-b84a-c57d746eae71"/>
+    <selectionType typeId="b896feda-c25a-4a76-80b7-0b3a9db3097f" valueTypeId="5bbe6b61-563c-42e0-ba11-920943f6fe8f"/>
+    <listType typeId="1750f59b-8eb0-4376-a194-7d10594fdc11" valueTypeId="7f8987ec-ff20-4e6c-8994-dda20a90a7e8"/>
+    <managerType typeId="82a6d3ee-ff05-4953-8545-9a96a4401d55" valueTypeId="660fb045-f590-42a6-a76e-7cbe95269e6d"/>
+  </producedTypes>
+  <name>ПС_НастройкиКонкурентногоАнализа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки конкурентного анализа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПС_НастройкиКонкурентногоАнализа.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПС_НастройкиКонкурентногоАнализа.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="5accb7e2-4d17-4538-b8fe-a935143c48a9">
+      <name>СайтыКонкурентов</name>
+      <description>Сайты конкурентов</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="0fa483c3-9144-4735-bf20-6435ad38b487">
+      <name>ДопИдентификаторыНоменклатуры</name>
+      <description>Доп идентификаторы номенклатуры</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="e04fdd74-8f28-4d9f-9a5d-ca260d6484b7">
+    <producedTypes>
+      <objectType typeId="e527dd29-f09f-4ae0-a2ac-88c20b7b8401" valueTypeId="2dccfeae-4a33-4966-93fe-6da3d5834522"/>
+      <rowType typeId="33ae1ca7-ea43-4d53-8d0d-618e3bf07e77" valueTypeId="e44d2c27-97b9-4443-a871-8acb01bfdbbf"/>
+    </producedTypes>
+    <name>СписокНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список настроек</value>
+    </synonym>
+    <attributes uuid="2afb7a97-6d64-457d-82b1-39e6f23cec09">
+      <name>Наименование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="04e1845c-f73d-4300-ac93-04d8d448d68a">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="968b2e96-5f04-4873-a72a-d405db4acc85">
+      <name>АлгоритмПолучения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Алгоритм получения</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ПС_АлгоритмыПолученияДопИнформации</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Catalog>

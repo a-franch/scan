@@ -15,4 +15,5 @@
   <content>Catalog.ПС_НастройкиРаспознавания</content>
   <content>InformationRegister.ПС_ПравилаЗавершенияОбработкиДокументов</content>
   <content>Catalog.ПС_ОсобенностиЗагрузкиФормДокументов</content>
+  <content>Catalog.ПС_НастройкиКонкурентногоАнализа</content>
 </mdclass:Subsystem>

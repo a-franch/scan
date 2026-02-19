@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="578f2128-1a64-4902-a57b-0a0c08e29bbd">
+  <producedTypes>
+    <refType typeId="5256b14b-cff8-4a3d-b584-213d7c11a9b6" valueTypeId="8c2a3af4-73fe-48e7-9e00-51c2b24b1b9e"/>
+    <listType typeId="b812f8a7-6a82-4001-9179-1c1aa2cc05e6" valueTypeId="febbb346-85d1-4782-b1f3-a523391cfed7"/>
+    <managerType typeId="8ac511b7-ce6a-4f0e-bc3a-dd4d2b767ec9" valueTypeId="2bbc85ed-8bc2-4b33-84be-95492daf4af2"/>
+  </producedTypes>
+  <name>ПС_АлгоритмыПолученияДопИнформации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Алгоритмы получения доп информации</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="00ed41d5-544d-4a9b-b19e-a42cbdfab074">
+    <name>ОбычныйРеквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обычный реквизит</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f4e24706-0c57-4d74-ae5e-18f447a6d848">
+    <name>ДопРеквизитБСП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доп реквизит БСП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aaf1fc2a-1285-45ed-8c25-85f9cffc5081">
+    <name>ПроизвольныйКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Произвольный код</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e4be5c03-181e-42ac-bcd0-3d5f8491bbf2">
+    <name>ФиксированноеЗначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фиксированное значение</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

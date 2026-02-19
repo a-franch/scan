@@ -126,6 +126,20 @@
         <value>014</value>
       </code>
     </items>
+    <items id="5f7665f5-c08a-4d9b-af76-20b04faf80e8">
+      <name>АдресТестовогоКонтураСервиса</name>
+      <description>Адрес тестового контура сервиса</description>
+      <code xsi:type="core:StringValue">
+        <value>015</value>
+      </code>
+    </items>
+    <items id="89cfc20f-c956-4764-9543-278629e854b0">
+      <name>РежимТестированияСервиса</name>
+      <description>Режим тестирования сервиса</description>
+      <code xsi:type="core:StringValue">
+        <value>016</value>
+      </code>
+    </items>
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
