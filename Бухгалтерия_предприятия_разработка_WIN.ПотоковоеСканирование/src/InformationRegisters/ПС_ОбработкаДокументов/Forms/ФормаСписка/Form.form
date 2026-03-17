@@ -975,8 +975,10 @@
 ИЗ
 	РегистрСведений.ПС_ОбработкаДокументов КАК ПС_ОбработкаДокументов
 ГДЕ
-	НЕ ПС_ОбработкаДокументов.ОбработкаЗавершена
-	ИЛИ &amp;ПоказыватьАрхив</queryText>
+	(НЕ ПС_ОбработкаДокументов.ОбработкаЗавершена
+	ИЛИ &amp;ПоказыватьАрхив)
+	И (ПС_ОбработкаДокументов.Объект = &amp;ТекДокумент
+	ИЛИ &amp;ПоВсемОбъектам)</queryText>
       <mainTable>InformationRegister.ПС_ОбработкаДокументов</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
@@ -1079,6 +1081,30 @@
         <dataPath>КраткоеСодержание</dataPath>
         <field>КраткоеСодержание</field>
       </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Создан</dataPath>
+        <field>Создан</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Проведен</dataPath>
+        <field>Проведен</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ОрганизацияИД</dataPath>
+        <field>ОрганизацияИД</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>КонтрагентИД</dataPath>
+        <field>КонтрагентИД</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПрефиксПолейКонтрагента</dataPath>
+        <field>ПрефиксПолейКонтрагента</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПрефиксПолейОрганизации</dataPath>
+        <field>ПрефиксПолейОрганизации</field>
+      </fields>
       <parameters>
         <name>ПоказыватьАрхив</name>
         <title>
@@ -1093,6 +1119,40 @@
           <types>Boolean</types>
         </valueType>
         <values xsi:type="core:UndefinedValue"/>
+        <useRestriction>true</useRestriction>
+      </parameters>
+      <parameters>
+        <name>ТекДокумент</name>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Тек документ</value>
+            </content>
+          </localValue>
+        </title>
+        <valueType>
+          <types>String</types>
+          <types>DocumentRef</types>
+          <stringQualifiers>
+            <length>36</length>
+          </stringQualifiers>
+        </valueType>
+        <useRestriction>true</useRestriction>
+      </parameters>
+      <parameters>
+        <name>ПоВсемОбъектам</name>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>По всем объектам</value>
+            </content>
+          </localValue>
+        </title>
+        <valueType>
+          <types>Boolean</types>
+        </valueType>
         <useRestriction>true</useRestriction>
       </parameters>
     </extInfo>
