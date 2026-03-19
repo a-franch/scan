@@ -41,6 +41,7 @@
     <extension xsi:type="mdclassExtension:LanguageExtension"/>
   </languages>
   <subsystems>Subsystem.ПС_Постскриптум</subsystems>
+  <commonPictures>CommonPicture.ДлительнаяОперация_ИИ_200</commonPictures>
   <roles>Role.ПС_ОсновнаяРоль</roles>
   <commonTemplates>CommonTemplate.NativeComp_x64</commonTemplates>
   <commonTemplates>CommonTemplate.NativeComp_x64_distr</commonTemplates>
@@ -57,6 +58,7 @@
   <commonModules>CommonModule.ПС_СлужебныеФункцииВызовСервера</commonModules>
   <commonModules>CommonModule.ПС_СозданиеДокументовБухгалтерияПредприятия</commonModules>
   <commonModules>CommonModule.ПС_СозданиеНовыхОбъектовВызовСервера</commonModules>
+  <commonForms>CommonForm.ПС_ФормаПрогрессаОбработки</commonForms>
   <catalogs>Catalog.ПС_КаталогиПотоковогоСканирования</catalogs>
   <catalogs>Catalog.ПС_НастройкиКонкурентногоАнализа</catalogs>
   <catalogs>Catalog.ПС_НастройкиРаспознавания</catalogs>
