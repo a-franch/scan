@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c72b6bd0-27fd-4d31-b105-35244aa99b8c">
+  <name>ПС_ПолучениеДанныхУправлениеТорговлей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получение данных управление торговлей</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

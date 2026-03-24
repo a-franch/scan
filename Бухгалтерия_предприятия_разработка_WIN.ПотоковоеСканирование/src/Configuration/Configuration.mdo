@@ -55,8 +55,10 @@
   <commonModules>CommonModule.ПС_ОбщегоНазначенияВызовСервера</commonModules>
   <commonModules>CommonModule.ПС_ПолучениеДанныхБухгалтерияПредприятия</commonModules>
   <commonModules>CommonModule.ПС_ПолучениеДанныхВызовСервера</commonModules>
+  <commonModules>CommonModule.ПС_ПолучениеДанныхУправлениеТорговлей</commonModules>
   <commonModules>CommonModule.ПС_СлужебныеФункцииВызовСервера</commonModules>
   <commonModules>CommonModule.ПС_СозданиеДокументовБухгалтерияПредприятия</commonModules>
+  <commonModules>CommonModule.ПС_СозданиеДокументовУправлениеТорговлей</commonModules>
   <commonModules>CommonModule.ПС_СозданиеНовыхОбъектовВызовСервера</commonModules>
   <commonForms>CommonForm.ПС_ФормаПрогрессаОбработки</commonForms>
   <catalogs>Catalog.ПС_КаталогиПотоковогоСканирования</catalogs>
