@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="442a762e-3bf3-44a6-b9f3-c3d53475783f">
+  <producedTypes>
+    <selectionType typeId="3e5da015-1f0b-4276-8d77-9a455c1e83e6" valueTypeId="96460284-e62f-4607-9b82-4cb52f05b16d"/>
+    <listType typeId="974dc2e1-b5b5-4b6d-a22b-bc0d0bc168b7" valueTypeId="910b74d9-84a4-4435-8dfe-ce3245bdbb01"/>
+    <managerType typeId="2236b903-b012-4904-85f4-274b60c7879c" valueTypeId="f7b1e16d-bdb9-458d-b2c5-178336a10fec"/>
+    <recordSetType typeId="249a0ea8-79cf-4fae-bd8a-12672d9f2ff9" valueTypeId="38ffc4a7-d96d-4bfa-8f93-195fc80515bd"/>
+    <recordKeyType typeId="cc96afec-4853-4686-b5fa-68e709ac4aa1" valueTypeId="b2e97202-55c2-4d16-917e-a41696988bff"/>
+    <recordType typeId="6f5b3ff9-6330-4ba6-b580-dbea706ade56" valueTypeId="ff9d3322-d9aa-46b7-8d34-f3b0f85eea36"/>
+    <recordManagerType typeId="114e6546-d5f8-45bf-800c-45d0fb56bfb8" valueTypeId="b024bdc9-72b6-422d-83f1-01931cfbcd6c"/>
+  </producedTypes>
+  <name>ПС_КэшКонкурентнойРазведки</name>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="47cd217f-ab8b-4198-a797-e80918c8e51f">
+    <name>Выполняется</name>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="d3c97571-d8ac-4ffd-b023-3afbe5cfbfce">
+    <name>ОтветСервиса</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <dimensions uuid="face3209-0d38-46c4-8bd6-30b911ed1878">
+    <name>ДокументАнализа</name>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4e355d94-d9fa-47dc-88c3-fdffcf5fdfad">
+    <name>ВерсияДанных</name>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

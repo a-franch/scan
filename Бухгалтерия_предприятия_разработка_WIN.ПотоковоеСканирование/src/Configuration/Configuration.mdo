@@ -70,6 +70,7 @@
   <enums>Enum.ПС_ВариантыИдентификацииСторонДокументов</enums>
   <enums>Enum.ПС_ТипыРаспознанныхДокументов</enums>
   <reports>Report.ПС_КонкурентнаяРазведка</reports>
+  <informationRegisters>InformationRegister.ПС_КэшКонкурентнойРазведки</informationRegisters>
   <informationRegisters>InformationRegister.ПС_ОбработкаДокументов</informationRegisters>
   <informationRegisters>InformationRegister.ПС_ПравилаЗавершенияОбработкиДокументов</informationRegisters>
 </mdclass:Configuration>
