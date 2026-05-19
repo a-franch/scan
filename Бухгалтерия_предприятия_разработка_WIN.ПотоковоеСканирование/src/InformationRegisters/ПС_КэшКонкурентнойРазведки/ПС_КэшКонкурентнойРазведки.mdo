@@ -12,7 +12,7 @@
   <name>ПС_КэшКонкурентнойРазведки</name>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
-  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="47cd217f-ab8b-4198-a797-e80918c8e51f">
     <name>Выполняется</name>
@@ -36,6 +36,18 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <attributes uuid="720fd3d5-1260-4035-b594-08eed3e95d72">
+    <name>ТочноеВремя</name>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <dimensions uuid="face3209-0d38-46c4-8bd6-30b911ed1878">
     <name>ДокументАнализа</name>

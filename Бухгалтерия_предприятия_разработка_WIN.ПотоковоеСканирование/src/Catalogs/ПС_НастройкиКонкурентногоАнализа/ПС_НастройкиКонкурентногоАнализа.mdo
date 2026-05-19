@@ -45,6 +45,7 @@
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ПС_НастройкиКонкурентногоАнализа.Form.ФормаЭлемента</defaultObjectForm>
   <tabularSections uuid="e04fdd74-8f28-4d9f-9a5d-ca260d6484b7">
     <producedTypes>
       <objectType typeId="e527dd29-f09f-4ae0-a2ac-88c20b7b8401" valueTypeId="2dccfeae-4a33-4966-93fe-6da3d5834522"/>
@@ -103,4 +104,9 @@
     </attributes>
     <lineNumberLength>9</lineNumberLength>
   </tabularSections>
+  <forms uuid="defbf961-6ccb-4702-86c3-a524ed0025be">
+    <name>ФормаЭлемента</name>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
